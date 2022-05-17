@@ -73,7 +73,7 @@ spec:
   template:
     spec:
       containers:
-        - image: {{ .Values.images.web-terminal-tooling }}
+        - image: {{ .Values.images.web_terminal_tooling }}
           command:
             - /bin/bash
             - -c
