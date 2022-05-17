@@ -70,7 +70,7 @@ spec:
         - -openshift-ca=/etc/prometheus/configmaps/cluster-ca-bundle/ca-bundle.crt
   {{- end}}
         - -skip-auth-regex=^/metrics
-        image: {{ .Values.images.thanos-proxy }}
+        image: {{ .Values.images.thanos_proxy }}
         name: thanos-proxy
         ports:
         - containerPort: 9092

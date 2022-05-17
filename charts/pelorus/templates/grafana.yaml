@@ -36,7 +36,7 @@ spec:
     - -openshift-ca=/etc/prometheus/configmaps/cluster-ca-bundle/ca-bundle.crt
 {{- end}}
     - '-skip-auth-regex=^/metrics|^/dashboard/snapshot|^/public|^/api'
-    image: {{ .Values.images.oauth-proxy }}
+    image: {{ .Values.images.oauth_proxy }}
     name: grafana-proxy
     ports:
       - containerPort: 9091

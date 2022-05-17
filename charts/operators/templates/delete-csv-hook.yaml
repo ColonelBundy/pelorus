@@ -13,7 +13,7 @@ spec:
   template:
     spec:
       containers:
-        - image: {{ .Values.images.origin-cli }}
+        - image: {{ .Values.images.origin_cli }}
           command:
             - /bin/bash
             - -c

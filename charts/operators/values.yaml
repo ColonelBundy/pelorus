@@ -2,4 +2,4 @@
 # Specify images and their versions
 # override for airgap possiblities.
 images:
-  origin-cli: quay.io/openshift/origin-cli:4.9
+  origin_cli: quay.io/openshift/origin-cli:4.9
